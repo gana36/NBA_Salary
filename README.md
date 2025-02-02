@@ -3,12 +3,12 @@
 
 # NBA Player Salary Prediction Pipeline 🏀💸
 
-This project implements an **end-to-end pipeline** designed to predict NBA player salaries. The pipeline consists of several stages: data exploration and cleaning, feature engineering, statistical testing, and multiple modeling techniques ranging from **linear regression** to **tree-based ensemble methods**.
+**End-to-end pipeline** designed to predict NBA player salaries. It consists of several stages: data exploration and cleaning, feature engineering, statistical testing, and multiple modeling techniques ranging from **linear regression** to **tree-based ensemble methods**.
 
 ## 1. Data Loading and Preprocessing 📂🔄
 
 ### Data Import and Cleaning:
-The pipeline begins by loading NBA statistics from a **CSV file**, followed by **filling missing values** (e.g., replacing NA values with zeros for calculated metrics) to ensure that missing data does not disrupt further analysis.
+pipeline begins by loading NBA statistics from a **CSV file**, followed by **filling missing values** (e.g., replacing NA values with zeros for calculated metrics) to ensure that missing data does not disrupt further analysis.
 
 ### Exploratory Data Analysis (EDA) 🔍📊:
 Visualizations are created using **Plotly** and **Seaborn** to explore the salary distribution, including **histograms**, **box plots**, and **scatter plots**. These visualizations help to understand the spread of the target variable and the relationships between categorical features (e.g., **team** and **position**) and numerical variables.
