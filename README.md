@@ -1,4 +1,3 @@
-Here's a version of your GitHub README with icons and symbols added for better visual appeal:
 
 ---
 
