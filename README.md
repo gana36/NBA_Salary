@@ -31,7 +31,7 @@ Several transformations are applied to address skewness and collinearity in the 
 **Heatmaps** and **pairplots** to identify collinear features, which are either removed or transformed to reduce multicollinearity.
 
 ### Scaling ⚖️📐:
-After encoding categorical features (using **TargetEncoder** and **LabelEncoder**), features are standardized using **StandardScaler** to ensure uniform treatment across models.
+After encoding categorical features (using **TargetEncoder** and **LabelEncoder**), features are standardized using **StandardScaler** to ensure uniform treatment across attributes.
 
 ## 3. Modeling Approach 🎯💡
 
@@ -54,8 +54,6 @@ When linearity assumptions are violated, **polynomial feature transformations** 
 
 ### 2. Tree-Based Ensemble Approach 🌳🔮
 
-#### Object-Oriented Implementation 💻:
-A class-based implementation encapsulates the entire ensemble modeling process, including data preprocessing, feature engineering, and encoding of categorical variables.
 
 #### Random Forest Ensemble 🌲🔧:
 A **RandomForestRegressor** is used as the primary model, with key features including:
@@ -73,7 +71,7 @@ In addition to performance metrics, visualizations are provided, such as:
 
 ## 4. Next Steps and Extensions ⏭️🚀
 
-Based on feature importance insights from the **XGB and Random Forests** model, further optimization using **XGBoost** on the top 10 most important features. This advanced ensemble method could enhance the predictive accuracy of the model.
+Based on feature importance insights from the **Random Forests** model, further optimization using **XGBoost** or **XGBoost** on the top 10 most important features. This advanced ensemble method could enhance the predictive accuracy of the model.
 
 ## 5. Limitations and Considerations ⚠️🔍
 
@@ -81,8 +79,5 @@ While the pipeline provides a thorough approach to predicting NBA player salarie
 - The **dataset size** may not be large enough to capture all potential influences on salary.
 - Factors such as **player experience**, **past performance**, and **external market conditions**, which are important determinants of salary, may not be fully accounted for in the current model. This could explain why certain salary predictions are less accurate.
 
-Overall, this pipeline offers a robust framework for predicting NBA player salaries, integrating **statistical analysis**, **feature engineering**, and a combination of **linear** and **ensemble models**.
 
----
 
-This version incorporates relevant icons to make the content more visually appealing and engaging. Let me know if you'd like any further tweaks!
