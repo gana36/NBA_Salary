@@ -28,7 +28,7 @@ Several transformations are applied to address skewness and collinearity in the 
 - **Square root transformations** for moderately skewed features (e.g., steals, turnovers).
 - **Cubic transformations** for left-skewed variables.
 
-**Heatmaps** and **pairplots** help identify collinear features, which are either removed or transformed to reduce multicollinearity.
+**Heatmaps** and **pairplots** to identify collinear features, which are either removed or transformed to reduce multicollinearity.
 
 ### Scaling ⚖️📐:
 After encoding categorical features (using **TargetEncoder** and **LabelEncoder**), features are standardized using **StandardScaler** to ensure uniform treatment across models.
