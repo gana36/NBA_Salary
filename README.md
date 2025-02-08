@@ -1,4 +1,3 @@
-![anpr](https://github.com/user-attachments/assets/7949a1f1-195c-4b30-bb3f-3d31db741e28)
 
 ---
 
